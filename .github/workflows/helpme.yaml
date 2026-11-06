@@ -206,7 +206,7 @@ jobs:
               with:
                 image-ref: 'my-app:latest'
                 # TODO#17: output format for Security tab integration
-                format: 'SARIF'
+                format: 'sarif'
                 output: 'trivy-results.sarif'
                 # TODO#18: which severities should be reported? (UNKNOWN,LOW,MEDIUM,HIGH,CRITICAL)
                 severity: 'HIGH,CRITICAL'
